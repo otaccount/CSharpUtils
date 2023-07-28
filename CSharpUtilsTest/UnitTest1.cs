@@ -9,6 +9,7 @@ namespace CSharpUtilsTest
         [TestMethod]
         public void テスト０１()
         {
+            // test
             Assert.AreEqual(1, 1);
         }
     }
