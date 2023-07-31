@@ -6,10 +6,22 @@ using System.Threading.Tasks;
 
 namespace ConsolePaiza
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+
+        }
+
+        static void Template()
+        {
+            var line1 = Console.ReadLine().Trim();
+            var N = int.Parse(line1);
+            for (var i = 0; i < N; i++)
+            {
+                string[] stArrayData = Console.ReadLine().Trim().Split(' ');
+                Console.WriteLine("hello = {0} , world = {1}", stArrayData[0], stArrayData[1]);
+            }
         }
     }
 }
